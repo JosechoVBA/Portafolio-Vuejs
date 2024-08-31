@@ -1,29 +1,20 @@
-# .
+# 📂Proyecto Creación Personal Portfolio 
+## 💻 Este Proyecto de creación de Personal Portfolio es desarrollado mediante el FrameWork Progresivo Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+### La creación de un Portafolio Electrónico posee diversas ventajas:
 
-## Recommended IDE Setup
+> ✔️ Demostración de habilidades: Un portafolio permite mostrar de manera tangible tus habilidades, proyectos y logros. Es una forma concreta de respaldar lo que mencionas en tu currículum o perfil profesional.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+> ✔️Visibilidad y presencia online: Un portafolio en línea aumenta tu visibilidad, especialmente si estás en busca de oportunidades laborales o proyectos. Los reclutadores, empleadores o clientes pueden encontrarte y evaluar tu trabajo fácilmente.
 
-## Customize configuration
+> ✔️Diferenciación: En un mercado competitivo, un portafolio bien diseñado te ayuda a destacarte. Muestra tu estilo, creatividad y la calidad de tu trabajo, diferenciándote de otros candidatos.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+> ✔️Accesibilidad: Facilita el acceso a tu trabajo, ya que puedes compartir un enlace con cualquier persona, en cualquier momento, sin necesidad de enviar múltiples archivos o documentos.
 
-## Project Setup
+> ✔️Reflejo de crecimiento profesional: Un portafolio muestra tu evolución y desarrollo profesional a lo largo del tiempo. Puedes incluir proyectos antiguos y recientes para evidenciar cómo has mejorado y aprendido nuevas habilidades.
 
-```sh
-npm install
-```
+> ✔️Control sobre tu marca personal: Permite que controles cómo te presentas al mundo profesional. Puedes diseñarlo para que refleje tu personalidad, valores y objetivos profesionales.
 
-### Compile and Hot-Reload for Development
+> ✔️Oportunidades de networking: Tener un portafolio puede abrir puertas a nuevas conexiones profesionales, colaboraciones o incluso mentorías, ya que otros profesionales pueden ver y apreciar tu trabajo.
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+> ✔️Prueba de tu compromiso: Crear y mantener un portafolio demuestra que te tomas en serio tu carrera y estás dispuesto a invertir tiempo en tu desarrollo y en la presentación de tu trabajo.
