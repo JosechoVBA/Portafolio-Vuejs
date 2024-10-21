@@ -5,10 +5,11 @@ import Educacion from './components/Educacion.vue';
 import ExperienciaComponente from './components/ExperienciaComponente.vue';
 import ProyectosComponente from './components/ProyectosComponente.vue';
 import HabilidadesComponente from './components/HabilidadesComponente.vue';
+import InteresesComponente from './components/InteresesComponente.vue';
 </script>
 
 <template>
-  <Header>
+  <Header id="top">
     <!--Barra de Navegacion-->
     <NavBar/>
     <!--Componente Datos Personales-->
@@ -35,11 +36,23 @@ import HabilidadesComponente from './components/HabilidadesComponente.vue';
         <HabilidadesComponente/>
       </section>
       <section id="intereses">
+        <!--Componente Intereses-->
         <h2>Intereses</h2>
+        <InteresesComponente />
       </section>
   </main>
+  <footer>
+    <a href="#top">Inicio</a>
+    <p>©️ 2024 Jose Luis Villalba - Portafolio Web</p>
+  </footer>
 </template>
 
 <style scoped>
-
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
 </style>
