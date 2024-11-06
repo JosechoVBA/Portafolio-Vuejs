@@ -12,12 +12,12 @@ const experiencias = ref([
   {
     id: 1,
     src: icono1,
-    parrafo: 'Lideré un equipo de analistas enfocados en la recopilación de datos de diversas fuentes de información los cuales empleaban diversos software (s) para el resumen de grandes volúmenes de información y la obtención de conocimiento'
+    parrafo: 'Lideré un equipo de analistas enfocados en la recopilación de datos de diversas fuentes de información los cuales empleaban diversos software (s) para el resumen de grandes volúmenes de datos y la obtención de conocimiento'
   },
   {
     id: 2,
     src: icono2,
-    parrafo: 'Me desempeñe como analista estratégico en un Centro de Análisis Criminal, desde el cual desarrollé diversos estudios estratégicos prospectivos, empleando análisis estadísticos y técnicas de estudio prospectivos'
+    parrafo: 'Me desempeñe como analista estratégico en un Centro de Análisis Criminal, desde el cual desarrollé diversos estudios estratégicos prospectivos, empleando análisis estadísticos y técnicas de estudios prospectivos'
   },
   {
     id: 3,
