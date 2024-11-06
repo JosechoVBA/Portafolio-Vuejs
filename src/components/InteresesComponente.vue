@@ -4,7 +4,7 @@ import FondoLava from './FondoLava.vue';
 
 // Definir los intereses como un array reactivo
 const intereses = ref([
-  "Desarrollo de Software de código abierto. Contribuyo a proyectos en GitHub.",
+  "Desarrollo de Software de código abierto como búsqueda de soluciones a problemas cotidianos",
   "Deportes al aire libre: disfruto de carreras y senderismo al aire libre. Practico y entreno Padel regularmente con amigos.",
   "Música: Practico guitarra como hobby, lo que me gusta mucho como momento de relajación y distensión."
 ]);

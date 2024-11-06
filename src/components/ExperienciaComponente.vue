@@ -1,34 +1,33 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
+import icono1 from '/src/assets/experiencia1.svg';
+import icono2 from '/src/assets/experiencia2.svg';
+import icono3 from '/src/assets/experiencia1.svg';
+import icono4 from '/src/assets/experiencia2.svg';
 import { ref } from "vue";
 
-const titulo = 'Desarrollador Full Stack';
-const fecha = 'Desde Enero 2022 / Julio 2024';
+const titulo = 'Data Analytics';
+const fecha = 'Desde Enero 2017 hasta la fecha';
 const experiencias = ref([
   {
     id: 1,
-    src: '/src/assets/experiencia1.svg',
-    parrafo: 'Lideré un equipo de 5 desarrolladores en la creación de una plataforma de comercio electrónico que incrementó las ventas en un 35% durante el primer año.'
+    src: icono1,
+    parrafo: 'Lideré un equipo de analistas enfocados en la recopilación de datos de diversas fuentes de información los cuales empleaban diversos software (s) para el resumen de grandes volúmenes de información y la obtención de conocimiento'
   },
   {
     id: 2,
-    src: '/src/assets/experiencia2.svg',
-    parrafo: 'Diseñé y desarrollé aplicaciones web utilizando Node.js, React y MongoDB, logrando reducir el tiempo de carga de las páginas en un 50%.'
+    src: icono2,
+    parrafo: 'Me desempeñe como analista estratégico en un Centro de Análisis Criminal, desde el cual desarrollé diversos estudios estratégicos prospectivos, empleando análisis estadísticos y técnicas de estudio prospectivos'
   },
   {
     id: 3,
-    src: '/src/assets/experiencia1.svg',
-    parrafo: 'Implementé soluciones de autenticación y autorización, mejorando la seguridad del sitio web y reduciendo los intentos de acceso no autorizado en un 20%.'
+    src: icono3,
+    parrafo: 'Me desempeñe como analista táctico de fuentes de información abiertas sobre los cuales creaba diversos paneles de visualización para la muestra de resultados'
   },
   {
     id: 4,
-    src: '/src/assets/experiencia2.svg',
-    parrafo: 'Colaboré con diseñadores de UX/UI para crear interfaces de usuario atractivas y fáciles de usar, aumentando la satisfacción del cliente en un 15%.'
-  },
-  {
-    id: 5,
-    src: '/src/assets/experiencia1.svg',
-    parrafo: 'Automaticé procesos de despliegue continuo utilizando Jenkins y Docker, reduciendo los tiempos de despliegue en un 40%.'
+    src: icono4,
+    parrafo: 'Me desempeñe como capacitador en diversos cursos y seminarios de Data Analysis'
   }
 ]);
 </script>

@@ -1,28 +1,31 @@
 <script setup>
+import proy1 from "/src/assets/annidada-tech1.jpg";
+import proy2 from "/src/assets/annidada-tech2.jpeg";
+import proy3 from "/src/assets/annidada-tech3.jpg";
 import { ref } from "vue";
 
 const proyectos = ref([
   {
     id: 1,
-    titulo: "Ecommerce",
-    descripcion: "Creé una plataforma de comercio electrónico que incrementó las ventas en un 35% durante el primer año.",
-    imgSrc: "/src/assets/annidada-tech.jpeg",
+    titulo: "Análisis de Retención de Clientes",
+    descripcion: "Este proyecto consiste en analizar patrones de comportamiento de clientes para identificar factores que influyen en la retención y abandono",
+    imgSrc: proy1,
     proyectoLink: "https://www.google.com.ar",
     githubLink: "https://github.com/usuario/proyecto1",
   },
   {
     id: 2,
-    titulo: "Ecommerce",
-    descripcion: "Creé una plataforma de comercio electrónico que incrementó las ventas en un 35% durante el primer año.",
-    imgSrc: "/src/assets/annidada-tech.jpeg",
+    titulo: "Optimización de Inventarios",
+    descripcion: "Con datos de ventas y tendencias de consumo, he desarrollado modelos que optimicen los niveles de inventario en función de la demanda",
+    imgSrc: proy2,
     proyectoLink: "https:www.google.com.ar",
     githubLink: "https://github.com/usuario/proyecto2",
   },
   {
     id: 3,
-    titulo: "Ecommerce",
-    descripcion: "Creé una plataforma de comercio electrónico que incrementó las ventas en un 35% durante el primer año.",
-    imgSrc: "/src/assets/annidada-tech.jpeg",
+    titulo: "Análisis de Sentimiento en Redes Sociales",
+    descripcion: "Utilizando datos de redes sociales, he construido un modelo de análisis de sentimiento para conocer la opinión del público sobre una marca",
+    imgSrc: proy3,
     proyectoLink: "https:www.google.com.ar",
     githubLink: "https://github.com/usuario/proyecto3",
   },

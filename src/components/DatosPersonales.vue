@@ -1,4 +1,8 @@
 <script setup>
+import Linkedin from '/src/assets/linkedin_icon.svg';
+import Instagram from '/src/assets/instagram_icon.svg';
+import GitHub from '/src/assets/github_icon.svg';
+import CurriculumVitae from '/src/assets/cv_resume_icon.svg';
 const title = 'José Luis Villalba';
 const description1 = 'Licenciado en Seguridad Pública';
 const description2 = 'Técnico Universitario en Programación';
@@ -6,10 +10,10 @@ const description3 = 'Profesor Universitario';
 const residencia = 'Ciudad Autónoma de Buenos Aires, Argentina';
 const presentacion = 'Bienvenido a mi Porfolio. Soy un Data Analyst que explora constantemente nuevas formas de ofrecer información procesable y valiosa. Utilizo SQL, Python, IBM i2 Analyst Notebook y herramientas de Inteligencia Empresarial como Power BI, desde los cuales presento mis hallazgos en forma de paneles interactivos fáciles de usar y visualmente agradables';
 const redesSociales = [
-    { id: 1, name: 'Linkedin', src: 'src/assets/linkedin_icon.svg', url: 'https://www.linkedin.com/in/jose-luis-villalba-03bb29209/' },
-    { id: 2, name: 'Instagram', src: 'src/assets/instagram_icon.svg', url: 'https://www.instagram.com/josecho_vba/' },
-    { id: 3, name: 'GitHub', src: 'src/assets/github_icon.svg', url: 'https://github.com/JosechoVBA' },
-    { id: 4, name: 'Curriculum Vitae', src: '/src/assets/cv_resume_icon.svg', url: '' }
+    { id: 1, name: 'Linkedin', src: Linkedin, url: 'https://www.linkedin.com/in/jose-luis-villalba-03bb29209/' },
+    { id: 2, name: 'Instagram', src: Instagram, url: 'https://www.instagram.com/josecho_vba/' },
+    { id: 3, name: 'GitHub', src: GitHub, url: 'https://github.com/JosechoVBA' },
+    { id: 4, name: 'Curriculum Vitae', src: CurriculumVitae, url: '' }
 ];
 const email = 'joseluisvillalba11@gmail.com';
 </script>

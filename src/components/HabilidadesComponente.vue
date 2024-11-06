@@ -1,46 +1,62 @@
 <script setup>
+import imagen1 from '/src/components/icons/js.svg';
+import imagen2 from '/src/components/icons/python.svg';
+import imagen3 from '/src/components/icons/html-css.svg';
+import imagen4 from '/src/components/icons/sql.svg';
+import imagen5 from '/src/components/icons/react.svg';
+import imagen6 from '/src/components/icons/vue.svg';
+import imagen7 from '/src/components/icons/node.svg';
+import imagen8 from '/src/components/icons/django.svg';
+import imagen9 from '/src/components/icons/bootstrap.svg';
+import imagen10 from '/src/components/icons/git.svg';
+import imagen11 from '/src/components/icons/docker.svg';
+import imagen12 from '/src/components/icons/cypress.svg';
+import imagen13 from '/src/components/icons/visual.svg';
+import imagen14 from '/src/components/icons/mysql.svg';
+import imagen15 from '/src/components/icons/mongo.svg';
+import imagen16 from '/src/components/icons/arg.svg';
+import imagen17 from '/src/components/icons/eeuu.svg';
 const skillsData = [
   {
     categoria: 'Lenguajes de Programacion',
     habilidades: [
-      { nombre: 'JavaScript', nivel: 'Intermedio', icono: '/src/components/icons/js.svg' },
-      { nombre: 'Python', nivel: 'Intermedio', icono: '/src/components/icons/python.svg' },
-      { nombre: 'HTML/CSS', nivel: 'Intermedio', icono: '/src/components/icons/html-css.svg' },
-      { nombre: 'Java', nivel: 'Intermedio', icono: '/src/components/icons/java.svg' },
-      { nombre: 'SQL', nivel: 'Intermedio', icono: '/src/components/icons/sql.svg' }
+      { nombre: 'JavaScript', nivel: 'Intermedio', icono: imagen1 },
+      { nombre: 'Python', nivel: 'Intermedio', icono: imagen2 },
+      { nombre: 'HTML/CSS', nivel: 'Intermedio', icono: imagen3},
+      { nombre: 'SQL', nivel: 'Intermedio', icono: imagen4 }
     ]
   },
   {
     categoria: 'Frameworks y Librerias',
     habilidades: [
-      { nombre: 'React.js', nivel: 'Intermedio', icono: '/src/components/icons/react.svg' },
-      { nombre: 'Vue.js', nivel: 'Intermedio', icono: '/src/components/icons/vue.svg' },
-      { nombre: 'Node.js', nivel: 'Intermedio', icono: '/src/components/icons/node.svg' },
-      { nombre: 'Django', nivel: 'Intermedio', icono: '/src/components/icons/django.svg' },
-      { nombre: 'Bootstrap', nivel: 'Intermedio', icono: '/src/components/icons/bootstrap.svg' }
+      { nombre: 'React.js', nivel: 'Básico', icono: imagen5 },
+      { nombre: 'Vue.js', nivel: 'Básico', icono: imagen6 },
+      { nombre: 'Node.js', nivel: 'Básico', icono: imagen7 },
+      { nombre: 'Django', nivel: 'Intermedio', icono: imagen8 },
+      { nombre: 'Bootstrap', nivel: 'Básico', icono: imagen9 }
     ]
   },
   {
     categoria: 'Herramientas y Softwares',
     habilidades: [
-      { nombre: 'Git', nivel: 'Intermedio', icono: '/src/components/icons/git.svg' },
-      { nombre: 'Docker', nivel: 'Intermedio', icono: '/src/components/icons/docker.svg' },
-      { nombre: 'Cypress', nivel: 'Intermedio', icono: '/src/components/icons/cypress.svg' },
-      { nombre: 'Visual Studio Code', nivel: 'Avanzado', icono: '/src/components/icons/visual.svg' }
+      { nombre: 'Git', nivel: 'Intermedio', icono: imagen10 },
+      { nombre: 'Docker', nivel: 'Básico', icono: imagen11 },
+      { nombre: 'Cypress', nivel: 'Básico', icono: imagen12 },
+      { nombre: 'Visual Studio Code', nivel: 'Avanzado', icono: imagen13 }
     ]
   },
   {
     categoria: 'Base de Datos',
     habilidades: [
-      { nombre: 'MySQL', nivel: 'Intermedio', icono: '/src/components/icons/mysql.svg' },
-      { nombre: 'MongoDB', nivel: 'Intermedio', icono: '/src/components/icons/mongo.svg' }
+      { nombre: 'MySQL', nivel: 'Intermedio', icono: imagen14 },
+      { nombre: 'MongoDB', nivel: 'Intermedio', icono: imagen15 }
     ]
   },
   {
     categoria: 'Idiomas',
     habilidades: [
-      { nombre: 'Español', nivel: 'Nativo', icono: '/src/components/icons/arg.svg' },
-      { nombre: 'Inglés', nivel: 'Intermedio', icono: '/src/components/icons/eeuu.svg' }
+      { nombre: 'Español', nivel: 'Nativo', icono: imagen16 },
+      { nombre: 'Inglés', nivel: 'Intermedio', icono: imagen17 }
     ]
   }
 ];

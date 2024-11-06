@@ -11,10 +11,11 @@ fechaColor.value = [
 ];
 const educacion = ref([]);
 educacion.value = [
-  {fecha:'2024', titulo:'Tecnico Universitario en Programación', descripcion:'Lorem impsun', enlace:"http"},
-  {fecha:'2023', titulo:'Tecnico de Redes', descripcion:'De esta forma es como se puede crear una linea de tiempo basica una vez echo este modelo podemos ya representarlo en vue',enlace:"http"},
-  {fecha:'2022', titulo:'Tecnico Instalador', descripcion:'Lorem impsun', enlace:"http"},
-  {fecha:'2021', titulo:'Tecnico Superficies', descripcion:'Lorem impsun', enlace:"http"},
+  {fecha:'2024', titulo:'Tecnico Universitario en Programación (en desarrollo)', descripcion:'Lorem impsun', enlace:"http"},
+  {fecha:'2024', titulo:'Diplomado en Análisis Forense Digital', descripcion:'El diplomado en Análisis Forense Digital se enfoca principalmente en la obtención, resguardo y análisis de la evidencia de tipo digital',enlace:"http"},
+  {fecha:'2022', titulo:'Profesor Universitario', descripcion:'El Profesorado Universitario se enfoca en el desarrollo de todas las habilidades pedagógicas para poder prácticar la enseñanza en el ámbito universitario, conforme el título de base que poseamos', enlace:"http"},
+  { fecha: '2017', titulo: 'Licenciado en Seguridad', descripcion: 'El Licenciado en Seguridad posee múltiples áreas de conocimientos que le permiten abordar amenazas y gestionar riesgos; especialmente mi enfoque se centra en el análisis estratégico y de información mediante el uso de software de diversos tipos', enlace: "http" },
+  { fecha: '2016', titulo: 'Diplomado en Habilidades Gerenciales', descripcion: 'El Especialista en Habilidades Gerenciales se enfoca en dirigir equipos y organizaciones de manera efectiva y dinámica para el logro de objetivos', enlace: "http" },
 ]
 </script>
 
