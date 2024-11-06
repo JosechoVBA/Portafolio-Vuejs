@@ -1,5 +1,5 @@
-# 📂Proyecto Creación Personal Portfolio 
-## 💻 Este Proyecto de creación de Personal Portfolio es desarrollado mediante el FrameWork Progresivo Vue.js
+# 📂Proyecto Creación Portfolio Personal  
+## 💻 Este Proyecto de creación de Portfolio Personal es desarrollado mediante el FrameWork Progresivo Vue.js
 
 ### La creación de un Portafolio Electrónico posee diversas ventajas:
 
